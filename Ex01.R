@@ -5,5 +5,5 @@ mean(x)
 y <- rnorm(100)
 
 plot(x, y) ## Symbols look too basic, Phil.  Don't you have any sense of style?
-# plot(x, y, pch = 19) ## Still not happy with black circles
+# plot(x, y, pch = 19) ## Still not happy with black circles.  我不高兴。
 plot(x, y, pch = 17) ## Heck yeah, Casey!
