@@ -1,7 +1,7 @@
 ---
 title: "R Markdown for Everybody"
-author: "Dr. Philip Turk, Western Data Analytics, Denver, CO, pturk@westerndataanalytics.com"
-date: "August 16, 2019"
+author: "Dr. Philip Turk, Atrium Health, Charlotte, NC, Philip.Turk@atriumhealth.org"
+date: "February 28, 2020"
 subtitle: Basic R and More
 output:
   html_document: default
