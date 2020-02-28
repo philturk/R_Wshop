@@ -1,4 +1,4 @@
-## 2019/08/16 Phil's R script
+## 2020/02/28 Phil's R script
 
 x <- rnorm(100)
 mean(x) 
