@@ -1,7 +1,7 @@
 ---
 title: "R Markdown for Everybody"
 author: "Dr. Philip Turk, Atrium Health, Charlotte, NC, Philip.Turk@atriumhealth.org"
-date: "December 18, 2020"
+date: "July 9, 2021"
 subtitle: Basic R and More
 output:
   html_document: default
