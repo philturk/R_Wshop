@@ -1,9 +1,16 @@
-## 2024/07/09 Phil's R script
+## 2024/12/14 Phil's R script
 
-x <- rnorm(100)
-mean(x) 
-y <- rnorm(100)
+## Here I am writing this amazing R program 
+## to compute the sample variance.
 
-plot(x, y) ## Symbols look too basic, Phil.  Don't you have any sense of style?
-# plot(x, y, pch = 19) ## Still not happy with black circles.  我不高兴。
-plot(x, y, pch = 17) ## Heck yeah, Jing!
+x <- c(2, 4, 6, 8, 10)
+xbar <- mean(x) ## Compute the mean
+xbar
+x - xbar ## Compute the 'errors'
+(x - xbar)^2 ## Square the errors
+sum((x - xbar)^2) ## Sum of the squared errors 
+
+n <- length(x) ## How many data do we have?
+n
+sum((x - xbar)^2)/(n - 1)
+var(x) ## Same as R's built-in function 
